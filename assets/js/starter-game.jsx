@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import _ from 'lodash';
 
+// Reference: Hangman example done in class
+
 export default function game_init(root, channel) {
   ReactDOM.render(<MemGame channel={channel} />, root);
 }

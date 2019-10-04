@@ -1,4 +1,6 @@
 defmodule Memory.Game do
+
+# Ref: Hangman example done in class
   
   # constructor for new state
   def new do
